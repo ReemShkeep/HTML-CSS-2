@@ -1,0 +1,298 @@
+/* start main */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* end main */
+
+
+/* start nav*/
+
+.nav {
+    margin: 2% 0;
+}
+
+.nav .logo {
+    float: left;
+    width: 40%;
+}
+
+.nav .logo img {
+    height: 5vh;
+}
+
+.nav .menu {
+    float: right;
+    list-style-type: none;
+    width: 60%;
+}
+
+.nav .menu .items {
+    float: left;
+    padding: 0 0.5%;
+}
+
+.nav .menu .items a {
+    text-decoration: none;
+    color: #6a6a6a;
+    margin: 12px;
+}
+
+.nav .menu .items a:hover {
+    color: #0abde3;
+}
+
+
+/* end nav*/
+
+
+/* start slider*/
+
+.slider {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header.jpg");
+    height: 85vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.slider .caption h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.slider .caption h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.right-btn {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #00bcd4;
+    padding: 12px 24px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #00bcd4;
+    border: 2px solid #00bcd4;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 12px 24px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+
+/* end slider*/
+
+
+/* start little history section */
+
+.little-history {
+    padding: 50px 0px 40px 0px;
+    background-color: #f7f7f7;
+    height: 800px;
+}
+
+.little-history-heading {
+    text-align: center;
+}
+
+.little-history-heading h2 {
+    color: #1e1e1e;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.little-history-heading p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #6a6a6a;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* end little history section */
+
+
+/* start the three classes section */
+
+.three-classes {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.three-classes .sub-class {
+    float: left;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 360px;
+}
+
+.three-classes .sub-class h4 {
+    margin-top: 35px;
+    font-size: 19px;
+    color: #1e1e1e;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+.three-classes .sub-class p {
+    margin-top: 35px;
+    font-size: 15px;
+    color: #6a6a6a;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+
+/* start the three classes section */
+
+
+/* start client section */
+
+.clients {
+    margin-top: 140px;
+}
+
+.clients .clients-section-heading h2 {
+    color: #1e1e1e;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.clients .clients-section-heading p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #6a6a6a;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.clients .svg-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.svg {
+    display: inline-flex;
+    width: 100%;
+    padding: 50px 170px 50px 100px;
+}
+
+.svg .svg-item {
+    margin: 30px;
+}
+
+
+/* start client section */
+
+
+/* start Footer Style */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #00bcd4;
+    padding: 40px 0;
+}
+
+.footer-col {
+    width: 50%;
+    height: 2px;
+    padding: 0 2px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col .social-links a {
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/* end Footer Style */
